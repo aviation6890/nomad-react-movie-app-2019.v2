@@ -1,3 +1,55 @@
+#Moive App 2019
+
+React JS Fundamentals Course (2020-05-25 Update)
+
+==========
+설치 목록
+==========
+Win OS 기준(powerShell 사용가정.)
+nodeJs 설치하면 npm, npx설치됨.
+
+- npm i prop-tpyes :
+- npm i –g typescript :
+- npm i axios :
+- npm i gh-pages : 깃헙에 소스 빌드
+- npm i react-router-dom : 네비게이션 패키지.
+
+Mac OS기준
+- npm install npx -g
+
+===========
+git 명령어
+===========
+- git add .
+- git commit -m "커밋내용"
+- git push origin master
+
+영화 토렌트 사이트 : yts
+
+======================
+ 설치 및 버전 확인.
+======================
+- node -v
+- npm -v
+- npx -v
+- git --version
+
+IDE :VSC 권장.
+
+HTML ,CSS, Vanilla JS
+
+======================
+ 개발순서?!
+======================
+1. create reac-app 사용.
+(Win OS 기준 -powershell)
+설치할 디렉토리 이동
+- npx create-react-app movie_app_2019.v2 (npx 앱생성 생성할폴더 이름)
+
+WebPack
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
