@@ -8,8 +8,8 @@ React JS Fundamentals Course (2020-05-25 Update)
 Win OS 기준(powerShell 사용가정.)
 nodeJs 설치하면 npm, npx설치됨.
 
-- npm i prop-tpyes :
 - npm i –g typescript :
+- npm i prop-tpyes :
 - npm i axios :
 - npm i gh-pages : 깃헙에 소스 빌드
 - npm i react-router-dom : 네비게이션 패키지.
