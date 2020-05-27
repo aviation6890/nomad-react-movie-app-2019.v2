@@ -51,6 +51,9 @@ WebPack
 Component는 HTML을 반환하는 함수.
 Component에서 정보를 보낼수 있음.
 
+Function Component 보다
+Class Component를 쓰는 이유는 state를 쓸수 있음.
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
