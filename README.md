@@ -48,6 +48,9 @@ HTML ,CSS, Vanilla JS
 
 WebPack
 
+Component는 HTML을 반환하는 함수.
+Component에서 정보를 보낼수 있음.
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
