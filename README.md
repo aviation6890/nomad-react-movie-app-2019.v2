@@ -53,6 +53,25 @@ Component에서 정보를 보낼수 있음.
 
 Function Component 보다
 Class Component를 쓰는 이유는 state를 쓸수 있음.
+(state는 Object임)
+
+https://yts-proxy.now.sh/list_movies.json
+
+
+axios 사용하는 방법에 주의점
+axios.get하면 느릴수 있음
+
+1.컴포넌트마운트를 호출할때 getMoive함수를 호출하면서
+비동기임을 알리고 axios를 await 하는 방법.
+
+getMovies = () => {
+	getMovies = async () => {
+		const movies = await axios.get('https://yts-proxy.now.sh/list_movies.json');
+	};
+
+	componentDidMount() {
+		this.getMovies();
+	}
 
 
 
